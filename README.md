@@ -2,7 +2,7 @@
 Core repository for a modular Android App
 This repo contains core implementations for a Modular Android App
 
-## Tech Stack
+## Tech Stack
 - Modularization
 - Kotlin
 - MVVM
