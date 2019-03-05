@@ -5,13 +5,14 @@ This repo contains core implementations for a Modular Android App
 ## Tech Stack
 - Modularization
 - Kotlin
+- Clean Architecture
 - MVVM
 - Kotlin Coroutines
 - Dagger2
 - Retrofit2
-- Arch. Components
+- Room
+- Architecture Components
 - Lifecycle Aware Components
 - Repository Pattern
-- Clean Architecture
 - Android Jetpack
 
