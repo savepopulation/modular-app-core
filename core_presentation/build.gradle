@@ -1,0 +1,11 @@
+apply from: "$rootDir/common-android-library.gradle"
+dependencies {
+
+    api project (Modules.core)
+
+    // View
+    api SupportLibraries.appCompat
+    api SupportLibraries.design
+    api SupportLibraries.recyclerView
+    api Libraries.lifecycleExtensions
+}
