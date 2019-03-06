@@ -1,4 +1,4 @@
-# modular-app-core
+# modular-app-core (IN PROGRESS)
 Core repository for a modular Android App
 This repo contains core implementations for a Modular Android App
 
