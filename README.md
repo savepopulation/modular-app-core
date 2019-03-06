@@ -15,4 +15,5 @@ This repo contains core implementations for a Modular Android App
 - Lifecycle Aware Components
 - Repository Pattern
 - Android Jetpack
+- Kotlin DSL
 
