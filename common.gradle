@@ -1,7 +1,6 @@
 apply plugin: Plugins.kotlinAndroid
 apply plugin: Plugins.kotlinAndroidExtensions
 apply plugin: Plugins.kotlinKapt
-apply plugin: Plugins.fabric
 
 android {
     compileSdkVersion Config.compileSdkVersion
@@ -51,9 +50,10 @@ dependencies {
     testAnnotationProcessor Libraries.dagger2Compiler
     compileOnly Libraries.javaxAnnotation
 
+    /*
     implementation(Libraries.fabric) {
         transitive = true
-    }
+    }*/
 }
 
 configurations.all {
