@@ -49,11 +49,6 @@ dependencies {
     kapt Libraries.roomCompiler
     testAnnotationProcessor Libraries.dagger2Compiler
     compileOnly Libraries.javaxAnnotation
-
-    /*
-    implementation(Libraries.fabric) {
-        transitive = true
-    }*/
 }
 
 configurations.all {
@@ -61,8 +56,6 @@ configurations.all {
         def requested = details.requested
         if (requested.group == 'org.jetbrains.kotlin') {
             details.useVersion Versions.kotlinVersion
-        } else if (requested.group == 'com.android.support') {
-            details.useVersion Versions.appCompatVersion
         }
     }
 }
