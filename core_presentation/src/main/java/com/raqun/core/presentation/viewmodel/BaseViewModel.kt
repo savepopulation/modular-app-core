@@ -4,6 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.raqun.core.coroutines.CoroutineManager
 import com.raqun.core.model.DataHolder
+import com.raqun.core.presentation.livedata.SingleLiveData
 
 abstract class BaseViewModel constructor(coroutineManager: CoroutineManager) : ViewModel(),
     CoroutineManager by coroutineManager {
