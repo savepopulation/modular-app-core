@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.raqun.core.presentation.recyclerview.RecyclerViewAdapter
 
 /*
  * Setups RecyclerView with Default parameters

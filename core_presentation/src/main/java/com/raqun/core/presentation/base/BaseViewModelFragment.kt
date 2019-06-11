@@ -2,10 +2,11 @@ package com.raqun.core.presentation.base
 
 import android.os.Bundle
 import androidx.annotation.CallSuper
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
-import java.util.Observer
+import com.raqun.core.presentation.viewmodel.BaseViewModel
 import javax.inject.Inject
 
 abstract class BaseViewModelFragment<VM : ViewModel> : BaseInjectionFragment() {
