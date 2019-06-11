@@ -1,4 +1,4 @@
-package com.raqun.core.presentation.base
+package com.raqun.core.presentation
 
 class Constants {
     companion object {

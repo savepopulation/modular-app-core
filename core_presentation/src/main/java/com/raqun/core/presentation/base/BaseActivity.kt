@@ -1,4 +1,4 @@
-package com.raqun.core.presentation
+package com.raqun.core.presentation.base
 
 import android.content.res.Resources
 import android.os.Bundle
@@ -7,7 +7,8 @@ import android.view.MenuItem
 import androidx.annotation.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import com.raqun.core.presentation.base.Constants
+import com.raqun.core.presentation.Constants
+import com.raqun.core.presentation.R
 import com.raqun.core.presentation.navigation.UiNavigation
 
 abstract class BaseActivity : AppCompatActivity() {
