@@ -9,5 +9,4 @@ dependencies {
     api Libraries.gson
     api Libraries.okHttp
     api Libraries.retrofitCoroutineAdapter
-    api Libraries.room
 }

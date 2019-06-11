@@ -27,8 +27,6 @@ object Versions {
     const val okHttpVersion = "3.10.0"
     const val retrofitCoroutineAdapterVersion = "0.9.2"
     const val viewModelVersion = "2.0.0"
-    const val roomVersion = "2.1.0-alpha04"
-    const val fabricVersion = "2.8.0"
     const val supportDesignVersion = "1.0.0-rc01"
 }
 

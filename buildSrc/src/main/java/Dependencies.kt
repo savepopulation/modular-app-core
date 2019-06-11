@@ -41,7 +41,4 @@ object Libraries {
         "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Versions.retrofitCoroutineAdapterVersion}"
     const val viewModel = "androidx.lifecycle:lifecycle-viewmodel:${Versions.viewModelVersion}"
     const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.viewModelVersion}"
-    const val room = "androidx.room:room-runtime:${Versions.roomVersion}"
-    const val roomCompiler = "androidx.room:room-compiler:${Versions.roomVersion}"
-    //const val fabric = "com.crashlytics.sdk.android:crashlytics:${Versions.fabricVersion}@aar"
 }

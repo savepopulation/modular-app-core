@@ -46,7 +46,6 @@ dependencies {
     implementation CoreLibraries.kotlin
     kapt Libraries.dagger2Compiler
     kapt Libraries.dagger2AndroidProcessor
-    kapt Libraries.roomCompiler
     testAnnotationProcessor Libraries.dagger2Compiler
     compileOnly Libraries.javaxAnnotation
 }
