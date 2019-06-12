@@ -1,5 +1,5 @@
 # modular-app-core
-Core repository for a modular Android App
+Core implementations for a modular Android App
 This repo contains core implementations for a __Modular Android App__
 
 Inspired from [n26 Engineering](https://medium.com/@N26)<br>
