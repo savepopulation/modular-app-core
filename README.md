@@ -7,8 +7,7 @@ Special thanks to [Mustafa Berkay Mutlu](https://github.com/mustafaberkaymutlu)
 
 
 ## Modularization:
-This repository is created to demonstrate how to implement __modular android application__ and __reactive clean architecture.__
-In __Base__ directory, there are four modules:
+This repository is created to publish core implementations for a __Modular Android App__
 
 ```
 - core
