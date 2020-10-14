@@ -11,7 +11,3 @@ fun String.isUrl(): Boolean {
         false
     }
 }
-
-fun String.isGeo(): Boolean {
-    return startsWith("geo:")
-}
